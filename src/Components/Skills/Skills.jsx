@@ -7,6 +7,9 @@ import cLogo from "/C.png";
 import cppLogo from "/C++.png";
 import htmlLogo from "/Html.png";
 import cssLogo from "/Css.png";
+import javaLogo from "/Java.png";
+import springLogo from "/Spring.png";
+import springbootLogo from "Springboot.png";
 //import jsLogo from "/Javascript.png";
 //import reactLogo from "/React.png";
 //import nodeLogo from "/Node.png";
@@ -22,6 +25,7 @@ import mysql from "/mysql.png";
 /*import express from "/Express.png";*/
 // Import tools logos (assuming these logos are stored locally)
 import vscodeLogo from "/Vscode.png";
+import intellijideaLogo from "/IntellijIdea.png";
 import gitLogo from "/Git.png";
 import githubLogo from "/Github.png";
 //import android from "/Android.png";
@@ -34,6 +38,9 @@ const Skills = () => {
     { name: "C++", logo: cppLogo },
     { name: "HTML", logo: htmlLogo },
     { name: "CSS", logo: cssLogo },
+    {name:"JAVA", logo: javaLogo},
+    {name:"Spring", logo: springLogo},
+    {name:"Spring Boot" , logo: springbootLogo},
     //{ name: "JavaScript", logo: jsLogo },
     // { name: "React", logo: reactLogo },
     // { name: "Redux", logo: redux },
@@ -51,6 +58,7 @@ const Skills = () => {
     { name: "Postman", logo: postmanLogo },
     { name: "Git", logo: gitLogo },
     { name: "GitHub", logo: githubLogo },
+    {name:"Intellij IDEA", logo: intellijideaLogo},
     //{ name: "Android Studio", logo: android },
   ];
 
