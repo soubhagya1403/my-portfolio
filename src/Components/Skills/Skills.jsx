@@ -7,9 +7,6 @@ import cLogo from "/C.png";
 import cppLogo from "/C++.png";
 import htmlLogo from "/Html.png";
 import cssLogo from "/Css.png";
-import javaLogo from "/Java.png";
-import springLogo from "/Spring.png";
-import springbootLogo from "Springboot.png";
 //import jsLogo from "/Javascript.png";
 //import reactLogo from "/React.png";
 //import nodeLogo from "/Node.png";
@@ -25,12 +22,14 @@ import mysql from "/mysql.png";
 /*import express from "/Express.png";*/
 // Import tools logos (assuming these logos are stored locally)
 import vscodeLogo from "/Vscode.png";
-import intellijideaLogo from "/IntellijIdea.png";
 import gitLogo from "/Git.png";
 import githubLogo from "/Github.png";
-//import android from "/Android.png";
 import postmanLogo from "/Postman.png";
 import chatgpt from "/chatgpt (1).png";
+import intellijideaLogo from "/IntellijIdea.png";
+import javaLogo from "/Java.png";
+import springLogo from "/Spring.png";
+import springbootLogo from "/spring-boot.png";
 
 const Skills = () => {
   const skills = [
@@ -38,6 +37,7 @@ const Skills = () => {
     { name: "C++", logo: cppLogo },
     { name: "HTML", logo: htmlLogo },
     { name: "CSS", logo: cssLogo },
+    { name: "MySQL", logo: mysql },
     {name:"JAVA", logo: javaLogo},
     {name:"Spring", logo: springLogo},
     {name:"Spring Boot" , logo: springbootLogo},
@@ -47,8 +47,7 @@ const Skills = () => {
     // { name: "Bootstrap", logo: bootstrap },
     // { name: "Tailwind CSS", logo: tailwindLogo },
     //{ name: "Node.js", logo: nodeLogo },
-    // { name: "Express", logo: express },*
-    { name: "MySQL", logo: mysql },
+    // { name: "Express", logo: express },
     //{ name: "Firebase", logo: firebase },
   ];
 
@@ -58,7 +57,7 @@ const Skills = () => {
     { name: "Postman", logo: postmanLogo },
     { name: "Git", logo: gitLogo },
     { name: "GitHub", logo: githubLogo },
-    {name:"Intellij IDEA", logo: intellijideaLogo},
+    { name:"Intellij IDEA", logo: intellijideaLogo},
     //{ name: "Android Studio", logo: android },
   ];
 
