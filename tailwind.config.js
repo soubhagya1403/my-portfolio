@@ -21,7 +21,7 @@ export default {
       },
       colors: {
         primary: {
-          100: "#220088",
+          100: "#000000", // Set to black
         },
         secondary: {
           100: "#e2ecf5",

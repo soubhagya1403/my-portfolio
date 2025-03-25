@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <div
-        className="min-h-screen flex items-center justify-center bg-secondary-100 pt-16"
+        className="min-h-screen flex items-center justify-center bg-black text-white py-16 lg:h-screen"
         id="home_section"
       >
         <div className="container mx-auto px-6 md:px-10 py-12 flex flex-col md:flex-row items-center justify-between">
@@ -75,8 +75,8 @@ const Home = () => {
             className="w-full md:w-1/2 flex justify-center md:justify-end"
             data-aos="slide-left"
           >
-            <div className="relative w-72 h-80 md:w-96 md:h-96 flex items-center justify-center rounded-full bg-gradient-to-r from-primary-100 via-purple-900  to-pink-500 animate-gradient-border">
-              <img
+          <div className="relative w-72 h-80 md:w-96 md:h-96 flex items-center justify-center rounded-full bg-gradient-to-r from-primary-100 via-purple-900  to-pink-500 animate-gradient-border">                         
+            <img
                 src="\myimgb.png.jpg"
                 alt="Profile"
                 className="w-full h-full md:w-full md:h-full object-cover rounded-full shadow-lg"

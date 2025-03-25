@@ -4,16 +4,16 @@ import GradientText from "../Ui_components/GradiantText";
 
 const Service = () => {
   return (
-    <div className="py-16 bg-secondary-100 lg:h-screen " id="services_section">
+    <div className="py-16 bg-black lg:h-screen" id="services_section">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center lg:text-5xl mb-12 flex justify-center items-center mx-auto pb-10">
-          <GradientText
-            colors={["#220088", "#4079ff", "#000000"]}
-            animationSpeed={3}
-            showBorder={false}
-            className="custom-class"
-          >
-            Services
+        <h2 className="text-gray-400 text-4xl font-bold text-center lg:text-5xl mb-12">
+        <GradientText
+      colors={["#9CA3AF", "#6B7280", "#4B5563"]} // Light gray gradient shades
+      animationSpeed={3}
+      showBorder={false}
+        className="custom-class"
+>
+      Services
           </GradientText>
         </h2>
         <div className="grid grid-cols-1 gap-8">

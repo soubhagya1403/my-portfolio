@@ -6,8 +6,8 @@ import ShinyText from "../Ui_components/ShinyText";
 
 const About = () => {
   return (
-    <div className="bg-primary-100 py-16 lg:h-screen" id="about_section">
-      <h1 className="text-secondary-100 text-4xl font-semibold flex justify-center pb-10">
+    <div className="bg-black py-16 lg:h-screen" id="about_section">
+      <h1 className="text-white text-4xl font-semibold flex justify-center pb-10">
       <ShinyText
               text="About me"
               disabled={false}
@@ -61,7 +61,7 @@ const About = () => {
                 Experience
               </h2>
               <p className="text-black text-sm">
-                Worked over different projects in the field of Software development(Backend)
+                Worked over different projects in the field of Software development
               </p>
             </div>
           </div>
